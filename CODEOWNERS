@@ -1,0 +1,15 @@
+# Code owners file
+# This file defines who is responsible for different parts of the codebase
+
+# Global owners
+* @your-username
+
+# Backend specific
+/backend/ @backend-team
+
+# Frontend specific
+/frontend/ @frontend-team
+
+# Infrastructure
+/.github/ @devops-team
+/k8s/ @devops-team
