@@ -22,16 +22,4 @@ spec:
         env:
         - name: FLASK_ENV
           value: "production"
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: backend-service
-spec:
-  selector:
-    app: backend
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 5000
-  type: LoadBalancer
+        command: ["python", "-c", "import time; time.sleep(3600)"]
