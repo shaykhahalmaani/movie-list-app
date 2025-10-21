@@ -1,0 +1,40 @@
+# AWS Credentials
+aws-credentials.env
+*.env
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
