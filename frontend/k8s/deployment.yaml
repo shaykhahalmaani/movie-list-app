@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 849303919363.dkr.ecr.us-west-2.amazonaws.com/frontend:latest
+        image: nginx:alpine
         ports:
         - containerPort: 3000
         env:
