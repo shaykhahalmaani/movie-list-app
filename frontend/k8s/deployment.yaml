@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-ecr-repo/frontend:latest
+        image: 849303919363.dkr.ecr.us-west-2.amazonaws.com/frontend:latest
         ports:
         - containerPort: 3000
         env:
