@@ -2,14 +2,8 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-# Install pipenv
-RUN pip install pipenv
-
-# Copy Pipfile and Pipfile.lock
-COPY Pipfile Pipfile.lock ./
-
-# Install dependencies
-RUN pipenv install --system --deploy
+# Install pip and flask
+RUN pip install flask flask-cors
 
 # Copy application code
 COPY . .
